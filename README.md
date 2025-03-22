@@ -1,8 +1,15 @@
-# Nix-powered Angular development environment
+# nix-angular-dev-env
+
+> Nix-powered Angular development environment
+
+![License](https://img.shields.io/github/license/alDuncanson/nix-angular-dev-env)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/)\
+![GitHub Repo stars](https://img.shields.io/github/stars/alDuncanson/nix-angular-dev-env)
 
 This repository provides a declarative and reproducible Angular development
-environment powered by [Nix flakes](https://nix.dev/concepts/flakes.html). The
-environment includes:
+environment powered by [Nix flakes](https://nix.dev/concepts/flakes.html).
+
+The environment includes:
 
 - multi-architecture support
   (`aarch64-darwin`,`aarch64-linux`,`x86_64-darwin`,`x86_64-linux`)
