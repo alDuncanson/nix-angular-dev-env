@@ -1,5 +1,14 @@
 # Nix-powered Angular development environment
 
+This repository provides a declarative and reproducible Angular development
+environment powered by [Nix flakes](https://nix.dev/concepts/flakes.html). The
+environment includes:
+
+- multi-architecture support
+  (`aarch64-darwin`,`aarch64-linux`,`x86_64-darwin`,`x86_64-linux`)
+- pre-configured [Angular CLI](https://angular.dev/tools/cli)
+- [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/)
+
 ![cli image](./assets/nix-andular-dev-env-in-terminal.png)
 
 If you don't have Nix installed already, I recommend installing it with this
