@@ -29,3 +29,6 @@ nix develop github:alDuncanson/nix-angular-dev-env
 ```
 
 ![cli demo gif](./assets/nix-andular-dev-env-demo.gif)
+
+This will drop you into a shell with everything you need to start working on an
+Angular project.
